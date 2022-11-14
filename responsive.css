@@ -1,0 +1,96 @@
+@media  screen and (max-width:1000px) {
+    .header{
+        
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        height: 200vh;
+    }
+    .left-header{
+        z-index: -1;
+        width: 100vw;
+        height: 100vh;
+    }
+    .h-shape{
+        opacity: 0;
+    }
+    nav{
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        left: -22px;
+        top: 0;
+        background-color: #131620;
+        width: 100vw;
+    }
+    nav a{
+        margin-left: 16vw;
+    }
+    .option
+    {
+        margin: 0;
+
+    }
+    .image{
+        position: relative;
+        width: 80vw;
+        left: 0;
+    }
+    .right-header{
+        height: 50vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg-text{
+        width: 50vw;
+    }
+    .aboutleft{
+        opacity: -1;
+        width: 0;
+
+    }
+    .aboutright{
+        width: 50vw;
+    }
+    .skillsec1{
+        width: 100vw;
+        left: 0;
+    }
+    .skills{
+        flex-wrap: wrap;
+        
+    }
+    .skillimg1{
+        width: 75%;
+    }
+    .skillimg1 img{
+        flex-grow: 2;
+        width: 100%;
+        height: 23vh;
+    }
+    .hover-items{
+        width:75% ;
+
+    }
+    .aboutright1{
+        opacity: -1;
+        width: 0;
+    }
+    .aboutleft1{
+        width: 100vw;
+        font-size: 4vw;
+    }
+    .portimage{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 500px)  {
+    .skillimg1{
+        width: 35%;
+    }
+    .hover-items{
+        width:35% ;
+
+    }
+}
